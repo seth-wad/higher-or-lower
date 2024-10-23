@@ -1,0 +1,20 @@
+import random
+
+# global variables 
+name = str(input("what is your name : "))
+num_list =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+start_num = random.choice(num_list)
+
+
+print("welcome")
+print("hello",name,"welcome to higher or lower.")
+print("you will be given a number and you ust answer if the next number will be higher or lower")
+print("you will have a choice between 1,20 . good luck")
+print(start_num)
+answer = str(input("please enter you answer here : "))
+
+
+
+
+
+ 
